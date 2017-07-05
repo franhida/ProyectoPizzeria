@@ -1,0 +1,36 @@
+li {
+	float: left;
+	height: 4rem;
+	text-align: center;
+	margin-top: 2em;
+	margin-left: 2em;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	height: 5em;
+	background-color: aqua;
+	list-style-type: none;
+	text-align: center;
+}
+
+#pizzaname {
+	background-color: red;
+	text-align: center;
+	font-size: 3em;
+}
+
+#index {
+	margin-left: 10em;
+}
+
+#products {
+	margin-left: 40em;
+}
+
+#orders {
+	float: right;
+	margin-right: 10em;
+}

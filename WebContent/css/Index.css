@@ -1,0 +1,24 @@
+#time {
+	font-size: 2em;
+	float: left;
+	background-color: green;
+	float: left;
+}
+
+#apenom {
+	font-size: 2em;
+	float: right;
+	background-color: green;
+}
+
+#logo {
+	margin-left: 30em;
+	height: 50em;
+	width: auto;
+}
+
+#date {
+	font-size: 2em;
+	float: left;
+	background-color: green;
+}
