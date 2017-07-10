@@ -1,0 +1,11 @@
+body {
+	background-color: silver;
+}
+
+#order {
+	text-align: center;
+	background-color: orange;
+	margin-top: 10em;
+	margin-left: 40em;
+	margin-right: 40em;
+}

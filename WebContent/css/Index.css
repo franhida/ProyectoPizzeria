@@ -5,6 +5,12 @@
 	float: left;
 }
 
+#date {
+	font-size: 2em;
+	float: left;
+	background-color: green;
+}
+
 #apenom {
 	font-size: 2em;
 	float: right;
@@ -12,13 +18,7 @@
 }
 
 #logo {
-	margin-left: 30em;
-	height: 50em;
+	margin-left: 40em;
+	height: 40em;
 	width: auto;
-}
-
-#date {
-	font-size: 2em;
-	float: left;
-	background-color: green;
 }
