@@ -8,24 +8,24 @@ function check() {
 		var num;
 		var typedLetter;
 		var letter;
-		var regdni = /^\d{8}[a-zA-Z]$/
+		var regdni = "/^\d{8}[a-zA-Z]$/";
 		if (regdni.test(dni) == true) {
-			numero = dni.substr(0, dni.length - 1);
+			num = dni.substr(0, dni.length - 1);
 			typedLetter = dni.substr(dni.length - 1, 1);
 			num = num % 23;
 			letter = 'TRWAGMYFPDXBNJZSQVHLCKET';
 			letter = letter.substring(num, num + 1);
 			if (letter != typedLetter.toUpperCase()) {
-				alert('Dni erroneo, la letra del NIF no se corresponde');
+				alert("Dni erroneo, la letra del NIF no se corresponde");
 			} else {
-				alert('Dni correcto');
+				alert("Dni correcto");
 			}
 		} else {
 			alert('Dni erroneo, formato no válido');
 		}
 	}
 	function checkemail(email) {
-		var regemail = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/;
+		var regemail = "/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/";
 		if (!expr.test(email)) {
 			alert("Error: La dirección de correo " + email + " es incorrecta.");
 		} else {
@@ -45,6 +45,11 @@ function check() {
 	if ((order.phone.value == "") || (order.phone.value == trigger)) {
 		order.phone.value = trigger;
 		ok = false;
-		fields += "\n Teléfono"
+		fields += "\n Teléfono";
+	}
+	if (ok != false) {
+		alert(fields);
+	} else {
+		alert(end);
 	}
 }

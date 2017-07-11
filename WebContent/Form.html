@@ -17,40 +17,40 @@
 			<li id="orders"><a href="Form.html">Pedidos</a></li>
 		</ul>
 	</header>
-		<form id="order">
-			<p>Nombre</p>
-			<input type="text" id="name" size="20" maxlength="15"
-				placeholder="Nombre" required="required">
+	<form id="order">
+		<p>Nombre</p>
+		<input type="text" id="name" size="20" maxlength="15"
+			placeholder="Nombre" required="required">
 
-			<p>Apellidos</p>
-			<input type="text" id="fname" size="20" maxlength="20"
-				placeholder="Apellidos" required="required">
+		<p>Apellidos</p>
+		<input type="text" id="fname" size="20" maxlength="20"
+			placeholder="Apellidos" required="required">
 
-			<p>DNI</p>
-			<input type="text" id="dni" size="20" maxlength="9"
-				placeholder="11223344A" required="required">
+		<p>DNI</p>
+		<input type="text" id="dni" size="20" maxlength="9"
+			placeholder="11223344A" required="required">
 
-			<p>Teléfono</p>
-			<input type="text" id="phone" size="20" maxlength="9"
-				placeholder="987654321" required="required">
+		<p>Teléfono</p>
+		<input type="text" id="phone" size="20" maxlength="9"
+			placeholder="987654321" required="required">
 
-			<p>Email</p>
-			<input type="email" id="email" size="20" maxlength="20"
-				placeholder="example@example.nnn" required="required">
+		<p>Email</p>
+		<input type="text" id="email" size="20" maxlength="50"
+			placeholder="example@example.nnn" required="required">
 
-			<p>Productos</p>
-			<select required="required">
-				<option selected="selected" value="pizza0">Escoja Producto</option>
-				<option value="pizza1">Pizza 6 Quesos</option>
-				<option value="pizza2">Pizza de la Casa</option>
-				<option value="pizza3">Pizza Vegana</option>
-				<option value="pizza4">Pizza Barbacoa</option>
-			</select>
+		<p>Productos</p>
+		<select required="required">
+			<option selected="selected" value="pizza0">Escoja Producto</option>
+			<option value="pizza1">Pizza 6 Quesos</option>
+			<option value="pizza2">Pizza de la Casa</option>
+			<option value="pizza3">Pizza Vegana</option>
+			<option value="pizza4">Pizza Barbacoa</option>
+		</select>
 
 
-			<p>
-				<input type="button" id="send" value="Hacer pedido">
-			</p>
-		</form>
+		<p>
+			<input type="button" id="send" value="Hacer pedido" onclick="check()">
+		</p>
+	</form>
 </body>
 </html>
